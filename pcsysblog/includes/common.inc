@@ -30,7 +30,7 @@ $header_close_table1 = '</td>';
 // Close the table for the date
 $header_close_table2 = '</td></tr></table>';
 // Open the table for the navlinks
-$navlinks_open_table = '<table style="width: 100%; text-align: right;" border="0" cellspacing="0" cellpadding="2"><tr><td style="vertical-align: top; background-color: #734646;">';
+$navlinks_open_table = '<table style="width: 100%; text-align: right;" border="0" cellspacing="0" cellpadding="2"><tr><td style="vertical-align: top; background-color: #FFA500;">';
 // Close the table for the navlinks
 $navlinks_close_table = '</td></tr></table>';
 // Open the table for the blog display
