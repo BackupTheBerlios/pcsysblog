@@ -78,13 +78,14 @@ font-size: .75em;
 }
 
 a:link, a:visited {
-color: #ea9e57;
+color: #a52a2a;
 text-decoration: none;
 font-weight: bold;
+font-size : .75em;
 }
 
 a:hover {
-color: #ad5e15;
+color: #4d4d4d;
 text-decoration: none;
 font-weight: bold;
 }
