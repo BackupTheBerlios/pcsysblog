@@ -14,8 +14,7 @@ include './includes/common.inc';
 <body>
 <?php
 echo $header_open_table1;
-echo $site_name;
-echo $site_description;
+echo $image_webhome;
 echo $header_close_table1;
 echo $header_open_table2;
 echo date("M d, Y h:i a", mktime());

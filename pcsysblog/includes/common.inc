@@ -3,7 +3,7 @@
 // The following items need to be changed to match your website
 // ---------------------------------------------------------------
 // Location and URL of your homepage index and logo
-$image_webhome	= '<a href="./index.php"><img src="./images/logo.png" title="PCSysBlog" alt="logo.png" style="border: 0px solid ; width: 200px; height: 67px;" align="middle" /></a>';
+$image_webhome	= '<a href="./index.php"><img src="./images/logo.png" title="PCSysBlog" alt="logo.png" style="border: 0px solid ;" /></a>';
 // Name & Description of your site
 $site_name	= 'The name of your site';
 $site_description = ' :: The description of your site';
