@@ -1,0 +1,35 @@
+Currently there is no installation system for PCSysBlog. Thats mostly because
+I haven't coded one yet, but also, there isn't a heck of alot here yet.
+
+Installation:
+-------------------------------------------------------------------------------
+
+1.    Untar/bunzip the file pcsysblog-x.x.x into your web directory:
+
+	tar xvfj pcsysblog-x.x.x
+      
+      This will create a directory called pcsysblog-x.x.x. You can move/rename
+      this directory to whatever you want or put its subdirectories/files under
+      the root web directory.
+
+2.    Create a database named pcsysblog and get the appropriate permissions
+      If you choose to change the database name, be sure to update
+      includes/dbconnect.php.
+
+3.    cd into the db directory and dump the file pcsysblog.sql into your
+      database:
+
+	cd db/
+	mysql -u 'username' pcsysblog < pcsysblog.sql
+
+4.    Edit the file includes/dbconnect.php. You need to set the $dbhost,
+      $dbusername, $dbpassword, and $database_name (if you used a different database name).
+
+5.    Edit the file common.inc, as annotated, to reflect your site.
+
+6.    Thats it. Point your browser to the following location:
+	http://wherever_you_put_pcsysblog/index.php
+
+Currently there is no facility for modifying anything about the page layout
+including headers and footers. If you have gotten this far you should be
+able to modify those by hand.

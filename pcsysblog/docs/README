@@ -1,0 +1,25 @@
+PCSysBlog is designed to be a very simplistic blogging system. It is not
+intended to compete with *nuke, xoops, slash, etc...
+
+I created PCSysBlog because those systems and most of the blog software out
+was way more than I needed for what I wanted to do.
+
+This software probably barely qualifies as alpha testing, and as such, should
+not be used on a publicly hosted server. It should most definitely not be
+used on a production server, where you might require your data to be safe :-).
+If you choose to test/use PCSysBlog, you do so at your own risk. I will not be
+responsible if you get hacked, destroy data, or if your computer explodes.
+Also, keep in mind that ANYONE can currently post to this blog system. The only
+way to delete posts is to delete them manually from the database.
+
+YOU HAVE BEEN WARNED!
+
+PCSysBlog requires a Linux server running Apache/PHP/MySQL. I test/develop
+on Debian GNU/Linux "sarge" using Apache 2.0.49, PHP 4.3.4, and MySQL 4.0.18.
+If you get PCSysBlog working under different versions please let me know. If
+it doesn't work under your system, let me know about that too. I may not do
+anything about it, but then again who knows :-). If you get PCSysBlog
+working on a system that it had problems on, please send the code and I will
+try to get it incorporated into the next release (along with your name in
+the contributors/developers list).
+
