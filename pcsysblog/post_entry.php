@@ -26,8 +26,8 @@ echo '<META HTTP-EQUIV="Refresh" CONTENT="5;URL=./index.php">';
 echo '</head>';
 include 'includes/common.inc';
 include 'includes/header.inc';
-echo '<br />Thank you for posting to PCSysBlog!<br /><br />';
-echo 'Please wait while we return you to the PCSysBlog Homepage.';
+echo "<br />Thank you for posting to '$site_name' !<br /><br />";
+echo "Please wait while we return you to the '$site_name' Homepage.";
 include 'includes/footer.inc';
 }
 ?>
