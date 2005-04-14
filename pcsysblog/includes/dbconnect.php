@@ -1,12 +1,12 @@
 <?php
-/*  Database Information - Required!!  */
-/* -- Configure the Variables Below --*/
-$dbhost = 'localhost';
+// Database information - Required
+// Change the variables below to match your site setup
+$dbhost = '';
 $dbusername = '';
 $dbpasswd = '';
-$database_name = 'pcsysblog';
+$database_name = '';
 
-/* Database Stuff, do not modify below this line */
+// Database connection, do not modify below this line
 
 $connection = mysql_pconnect("$dbhost","$dbusername","$dbpasswd") 
 	or die ("Couldn't connect to server.");
