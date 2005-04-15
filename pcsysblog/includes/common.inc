@@ -12,7 +12,7 @@ $site_url = 'http://where_you_put_pcsysblog';
 // Site administrators email address
 $admin_email = 'admin@mydomain.com';
 // Footer copyright - DON'T CHANGE THIS
-$copyright = 'Powered by: <a href="../pcsysblog/">PCSysBlog-0.0.1a</a> &copy; 2004-2008 - All rights reserved.<br />PCSysBlog is Free Software released under the <a href="http://www.gnu.org/licenses/gpl.txt">GNU/GPL license</a>.';
+$copyright = 'Powered by: <a href="../pcsysblog/">PCSysBlog-0.0.2a</a> &copy; 2004-2008 - All rights reserved.<br />PCSysBlog is Free Software released under the <a href="http://www.gnu.org/licenses/gpl.txt">GNU/GPL license</a>.';
 // XHTML compliance indicator
 $xhtml_compliance = '<a href="http://validator.w3.org/check?uri=referer"><img src="./images/vxhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" style="border-style:none" /></a>';
 // CSS compliance indicator
