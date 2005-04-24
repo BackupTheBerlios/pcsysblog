@@ -27,7 +27,9 @@ Installation:
         "PCSysBlog installation Successful!"
 
 6.    Thats it. Point your browser to the following location:
-      http://wherever_you_put_pcsysblog/index.php or click the link.
+      	http://wherever_you_put_pcsysblog/index.php or click the link.
+      To post to your new blog, point your browser to the following location:
+	http://wherever_you_put_pcsysblog/post.php
 
 7.    IMPORTANT! Be sure to delete the entire install directory.
 
