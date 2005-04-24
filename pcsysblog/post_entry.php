@@ -1,5 +1,7 @@
 <?php
-include ("./includes/dbconnect.php");
+// session_start has to occur first
+session_start();
+include './includes/dbconnect.php';
 // Define post fields into variables
 $post_title = $HTTP_POST_VARS['post_title'];
 $post_text = $HTTP_POST_VARS['post_text'];
@@ -25,9 +27,9 @@ echo '<head>';
 echo '<META HTTP-EQUIV="Refresh" CONTENT="5;URL=./index.php">';
 echo '</head>';
 include 'includes/common.inc';
-include 'includes/header.inc';
+include_once 'includes/header.inc';
 echo "<br />Thank you for posting to '$site_name' !<br /><br />";
 echo "Please wait while we return you to the '$site_name' Homepage.";
-include 'includes/footer.inc';
+include_once 'includes/footer.inc';
 }
 ?>

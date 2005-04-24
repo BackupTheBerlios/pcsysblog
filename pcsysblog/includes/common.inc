@@ -10,21 +10,23 @@ $site_description = ' :: The description of your site';
 // Url for your blog
 $site_url = 'http://where_you_put_pcsysblog';
 // Site administrators email address
-$admin_email = 'admin@mydomain.com';
+$admin_email = 'admin@yourdomain.com';
 // Footer copyright - DON'T CHANGE THIS
-$copyright = 'Powered by: <a href="../pcsysblog/">PCSysBlog-0.0.2a</a> &copy; 2004-2008 - All rights reserved.<br />PCSysBlog is Free Software released under the <a href="http://www.gnu.org/licenses/gpl.txt">GNU/GPL license</a>.';
+$copyright = 'Powered by: <a href="http://pcsysblog.berlios.de">PCSysBlog-0.1.0b</a> &copy; 2004-2008 - All rights reserved.<br />PCSysBlog is Free Software released under the <a href="http://www.gnu.org/licenses/gpl.txt">GNU/GPL license</a>.';
 // XHTML compliance indicator
 $xhtml_compliance = '<a href="http://validator.w3.org/check?uri=referer"><img src="./images/vxhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" style="border-style:none" /></a>';
 // CSS compliance indicator
 $vcss_compliance = '<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.pcsysadmin.com/pcsysblog/includes/pcsysblog.css"><img style="border:0;width:88px;height:31px" src="./images/vcss.png" alt="Valid CSS!" /></a>';
 // Style sheet for your blog
 $style_sheet = '<link rel="stylesheet" type="text/css" href="./includes/pcsysblog.css" />';
-// Site navigation links at the top and bottom of the page
-$nav_links	= '<span style="font-size: small"><a href="index.php">Home</a> | <a href="index.php?url=post">Post</a> | <a href="index.php?url=register">Register</a> | <a href="index.php?url=login">Login</a> | <a href="logout.php">Logout</a></span>';
+// Site navigation links at the top and bottom of the page for the admin
+$admin_nav_links	= '<span style="font-size: small"><a href="post.php">Post</a> | <a href="logout.php">Logout</a></span>';
+// Site navigation links at the top and bottom of the page for visitors (This is a placeholder for later use)
+$visitor_nav_links	= '<span style="font-size: small"></span>';
 // Open the table for the site name/description
 $header_open_table1 = '<table style="text-align: left; width: 100%;" border="0" cellspacing="0" cellpadding="2"><tr><td style="width: 75%; text-align: left; vertical-align: top; font-size: x-large;">';
 // Open the table for the date
-$header_open_table2 = '<td style="width: 25%; text-align: right; vertical-align: top; font-size: small;">';
+$header_open_table2 = '<td style="width: 25%; text-align: right; vertical-align: middle; font-size: small;">';
 // Close the table for the site name/description
 $header_close_table1 = '</td>';
 // Close the table for the date

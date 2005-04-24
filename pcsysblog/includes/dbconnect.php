@@ -1,10 +1,10 @@
 <?php
 // Database information - Required
 // Change the variables below to match your site setup
-$dbhost = '';
-$dbusername = '';
+$dbhost = 'localhost';
+$dbusername = 'cabu';
 $dbpasswd = '';
-$database_name = '';
+$database_name = 'pcsysblog';
 
 // Database connection, do not modify below this line
 

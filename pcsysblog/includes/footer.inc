@@ -1,6 +1,13 @@
 <?php
 echo $navlinks_open_table;
-echo $nav_links;
+if (! session_is_registered ( "userid" ) )
+{
+echo $visitor_nav_links;
+}
+else
+{
+echo $admin_nav_links;
+}
 echo $navlinks_close_table;
 echo $footer_open_table1;
 echo $copyright;

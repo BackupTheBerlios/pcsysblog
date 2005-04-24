@@ -2,7 +2,7 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta content="text/html; charset=ISO-8859-1"
+<meta content="text/html; charset=utf-8"
 http-equiv="content-type" />
 <meta content="blog system" name="description" />
 <title>PCSysBlog Site</title>
@@ -20,6 +20,13 @@ echo $header_open_table2;
 echo date("M d, Y h:i a", mktime());
 echo $header_close_table2;
 echo $navlinks_open_table;
-echo $nav_links;
+if (! session_is_registered ( "userid" ) )
+{
+echo $visitor_nav_links;
+}
+else
+{
+echo $admin_nav_links;
+}
 echo $navlinks_close_table;
 ?>
