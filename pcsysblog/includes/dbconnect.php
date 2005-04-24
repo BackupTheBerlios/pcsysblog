@@ -2,7 +2,7 @@
 // Database information - Required
 // Change the variables below to match your site setup
 $dbhost = 'localhost';
-$dbusername = 'cabu';
+$dbusername = '';
 $dbpasswd = '';
 $database_name = 'pcsysblog';
 
