@@ -34,7 +34,7 @@ if($login_check > 0){
 } else {
 	include_once './includes/common.inc';
 	include_once './includes/header.inc';
-	echo "<p><strong>You could not be logged in! Either the username and password do not match or you have not validated your account!</strong></p>
+	echo "<p><strong>You could not be logged in! Your username and password do not match the database!</strong></p>
 	<p><strong>Please try again!</strong></p>";
 	include_once './login.php';
 	include_once './includes/footer.inc';
