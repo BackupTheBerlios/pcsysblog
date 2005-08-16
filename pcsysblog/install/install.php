@@ -88,6 +88,18 @@ echo "<p><img src='../images/success.png' width='12' height='12' border='0' name
 } else {
 die("<img src='../images/fail.png' width='12' height='12' border='0' name='fail.png' alt='Fail'>&nbsp;&nbsp;" . mysql_error());
 }
+$query3 = 'CREATE TABLE blog_comment( '.
+         'commentid int(25) NOT NULL auto_increment, '.
+         'comment_title varchar(50) NOT NULL default "", '.
+         'comment_text text NOT NULL, '.
+				 'comment_name text NOT NULL, '.
+         'comment_date datetime NOT NULL default "0000-00-00 00:00:00", '.
+         'PRIMARY KEY  (commentid))';
+if (mysql_query($query3)){
+echo "<p><img src='../images/success.png' width='12' height='12' border='0' name='success.png' alt='Success'>&nbsp;&nbsp;Successfully created blog_comment table.</p>";
+} else {
+die("<img src='../images/fail.png' width='12' height='12' border='0' name='fail.png' alt='Fail'>&nbsp;&nbsp;" . mysql_error());
+}
 // End table creation
 // Create the admin user
 //
